@@ -10,7 +10,6 @@ TODOS:
 -Create wireframe 
 -Begin Coding 
   -routes/api files
-  -models files
 -Practice git branching 
 -Add comments and clean up code 
 -Create README.md 
