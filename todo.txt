@@ -1,18 +1,20 @@
 TODOS: 
--Create git repository 
--Clone to local machine 
--Read README-initial.md 
--Watch class video 
--Review Activities 
+-Create git repository DONE
+-Clone to local machine DONE
+-Read README-initial.md DONE
+-Watch class video DONE
+-Review Activities DONE
 -Complete Code Drills 
 -Create Pseudocode 
 -Create user story 
 -Create wireframe 
--Begin Coding 
-  -routes/api files
-  -models files
+-Begin Coding DONE
+  -routes/api files DONE
+  -models files DONE
+-Test all API Routes and check database
 -Practice git branching 
 -Add comments and clean up code 
+-Deploy on Heroku
 -Create README.md 
 -Review grading criteria 
 -Submit to BCS 
