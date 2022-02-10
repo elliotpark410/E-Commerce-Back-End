@@ -15,6 +15,6 @@ TODOS:
 -Practice git branching 
 -Add comments and clean up code 
 -Create README.md DONE
--Review grading criteria 
--Submit to BCS 
+-Review grading criteria DONE
+-Submit to BCS DONE
 
