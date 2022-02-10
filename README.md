@@ -206,22 +206,22 @@ Github repository:
 <br>
 Initializing MySQL database
 <img src="Images\Initializing MySQL database screenshot.png" title="Initializing MySQL database screenshot" width = 500px>
-
+<br>
 <br>
 
 Adding seed file to MySQL database
 <img src="Images\Adding seed file to MySQL database screenshot.png" title="Adding seed file to MySQL database screenshot" width = 500px>
-
+<br>
 <br>
 
 Starting Application
 <img src="Images\Starting Application screenshot.png" title="Starting Application screenshot" width = 500px>
-
+<br>
 <br>
 
 Insomnia GET route for http://localhost:3001/api/categories
 <img src="Images\Insomnia GET route screenshot.png" title="Insomnia GET route screenshot" width = 500px>
-
+<br>
 <br>
 <br>
 
