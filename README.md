@@ -208,17 +208,17 @@ Initializing MySQL database
 <img src="Images\Initializing MySQL database screenshot.png" title="Initializing MySQL database screenshot" width = 500px>
 
 <br>
-<br>
+
 Adding seed file to MySQL database
 <img src="Images\Adding seed file to MySQL database screenshot.png" title="Adding seed file to MySQL database screenshot" width = 500px>
 
 <br>
-<br>
+
 Starting Application
 <img src="Images\Starting Application screenshot.png" title="Starting Application screenshot" width = 500px>
 
 <br>
-<br>
+
 Insomnia GET route for http://localhost:3001/api/categories
 <img src="Images\Insomnia GET route screenshot.png" title="Insomnia GET route screenshot" width = 500px>
 
@@ -230,18 +230,13 @@ Insomnia GET route for http://localhost:3001/api/categories
 
 <img src="Images\E-Commerce-GET-routes.gif" title="E-Commerce-GET-routes gif" width = 400px>
 
-<br>
-
 Link to E-Commerce-GET-routes GIF 
 > [https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view](https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view)
 <br>
 
 <br>
-<br>
 
 <img src="Images\E-Commerce-PUT-POST-DELETE-routes.gif" title="E-Commerce-PUT-POST-DELETE-routes gif" width = 400px>
-
-<br>
 
 Link to E-Commerce-PUT-POST-DELETE-routes GIF 
 > [https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view](https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view)
