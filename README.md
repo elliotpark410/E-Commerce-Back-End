@@ -1,11 +1,11 @@
 # E-Commerce-Back-End
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-E-commerce site back end using Express.js API and Sequelize to interact with a MySQL database
 
 
-OLD README.MD MUST UPDATE!
+Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will be beneficial as a full-stack developer.
 
-Employee Tracker is a command-line application to manage a company's employee database. With this application, you will be able to view and update 3 SQL tables (department, role, and employee). The purpose of this application is to have a Content Management System so that non-developers can easily view and interact with information stored in databases. The application uses [Node.js](https://nodejs.org/en/download/), [npm Inquirer](https://www.npmjs.com/package/inquirer), and [MySQL](https://www.mysql.com/downloads/). 
+E-commerce back end uses Express.js API and Sequelize to interact with a MySQL database. This application has API routes that allow a user to SELECT, INSERT, UPDATE, and DELETE data in three tables (categories, products, and tags).
+
 
 <br>
 
@@ -16,13 +16,17 @@ Deployed App on Heroku
 > [https://note-taker-elliotpark.herokuapp.com/](https://note-taker-elliotpark.herokuapp.com/)
 <br> -->
 
-Link to GIF of Application
-> [https://drive.google.com/file/d/1ivP0EtLiI3hlsF6KbffkX7InR82vLHnL/view](https://drive.google.com/file/d/1ivP0EtLiI3hlsF6KbffkX7InR82vLHnL/view)
+Link to GIF of Application - GET routes 
+> [https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view](https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view)
+<br>
+
+Link to GIF of Application - PUT, POST, and DELETE routes 
+> [https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view](https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view)
 <br>
 
 
 Github Repository
-> [https://github.com/elliotpark410/Employee-Tracker](https://github.com/elliotpark410/Employee-Tracker)
+> [https://github.com/elliotpark410/E-Commerce-Back-End](https://github.com/elliotpark410/E-Commerce-Back-End)
 
 <br>
 
@@ -49,6 +53,12 @@ Github Repository
 To begin the application, use the following in command line:
 
 ```bash
+cd db
+mysql -u root -p
+exit
+
+cd server.js
+node seeds/index.js
 node server.js
 ```
 <br>
@@ -74,27 +84,40 @@ node server.js
 
 <br>
 
-4. Next, install Inquirer.js which is one of the many node packages. In command line, you can enter:
+4. Next, install Express which is node web framework. In command line, you can enter:
 
->npm install inquirer
-
-<br>
-
-5. Next, install console.table which is one of the many node packages. In command line, you can enter:
-
->npm install console.table
+>npm install express
 
 <br>
 
-6. Next, install mysql2 which is one of the many node packages. In command line, you can enter:
+5. Next, install Sequelize which is a Node.js Object Relational Mapping (ORM) tool. In command line, you can enter:
+
+>npm install Sequelize
+
+<br>
+
+6. Next, install dotenv which is a module that loads environment variables. In command line, you can enter:
+
+>npm install dotenv
+
+<br>
+
+7. Next, install mysql2 which is one of the mysql APIs for node. In command line, you can enter:
 
 >npm install mysql2
 
 <br>
 
-7. Lastly, you will need to download mysql:
+8. Additionally, you will need to download mysql database to store and access data:
 
 >https://www.mysql.com/downloads/
+
+<br>
+
+
+9. Lastly, you will need to download Insomnia for testing API routes:
+
+>https://insomnia.rest/download
 
 <br>
 
@@ -141,10 +164,12 @@ Example DELETE: The API request below will delete note with id = "1"
 
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
-* [npm Inquirer](https://www.npmjs.com/package/inquirer)
-* [npm console.table](https://www.npmjs.com/package/console.table)
+* [npm Express](https://www.npmjs.com/package/express)
+* [npm Sequelize](https://www.npmjs.com/package/sequelize)
+* [npm dotenv](https://www.npmjs.com/package/dotenv)
 * [npm mysql2](https://www.npmjs.com/package/mysql2)
 * [MySQL](https://www.mysql.com/downloads/)
+* [Insomnia](https://insomnia.rest/download)
 
 
 <br>
@@ -171,7 +196,7 @@ To install this code, please use [Github's guidlines to clone the repository](ht
 <br>
 
 Github repository:
->https://github.com/elliotpark410/Employee-Tracker
+>https://github.com/elliotpark410/E-Commerce-Back-End
 
 <br>
 
@@ -179,33 +204,23 @@ Github repository:
 ## Screenshots 
 
 <br>
-Screenshot of Initial Prompt
-<img src="Images\Initial Prompt screenshot.png" title="Initial Prompt screenshot" width = 700px>
+Initializing MySQL database
+<img src="Images\Initializing MySQL database screenshot.png" title="Initializing MySQL database screenshot" width = 500px>
 
 <br>
 <br>
-Screenshot of View Employees table
-<img src="Images\View Employees screenshot.png" title="View Employees table screenshot" width = 700px>
+Adding seed file to MySQL database
+<img src="Images\Adding seed file to MySQL database screenshot.png" title="Adding seed file to MySQL database screenshot" width = 500px>
 
 <br>
 <br>
-Screenshot of Add Department prompt 
-<img src="Images\Add Department screenshot.png" title="Add Department prompt screenshot" width = 700px>
+Starting Application
+<img src="Images\Starting Application screenshot.png" title="Starting Application screenshot" width = 500px>
 
 <br>
 <br>
-Screenshot of Add Role prompt
-<img src="Images\Add Role screenshot.png" title="Add Role prompt screenshot" width = 700px>
-
-<br>
-<br>
-Screenshot of Add Employee prompt
-<img src="Images\Add Employee screenshot.png" title="Add Employee prompt screenshot" width = 700px>
-
-<br>
-<br>
-Screenshot of Update Employee prompt
-<img src="Images\Update Employee screenshot.png" title="Update Employee prompt screenshot" width = 700px>
+Insomnia GET route for http://localhost:3001/api/categories
+<img src="Images\Insomnia GET route screenshot.png" title="Insomnia GET route screenshot" width = 500px>
 
 <br>
 <br>
@@ -213,40 +228,41 @@ Screenshot of Update Employee prompt
 
 ## GIF-of-Application
 
-<img src="Images\Employee-Tracker.gif" title="Employee Tracker gif" width = 448px>
+<img src="Images\E-Commerce-GET-routes.gif" title="E-Commerce-GET-routes gif" width = 400px>
 
 <br>
 
-Link to GIF of Application
-> [https://drive.google.com/file/d/1ivP0EtLiI3hlsF6KbffkX7InR82vLHnL/view](https://drive.google.com/file/d/1ivP0EtLiI3hlsF6KbffkX7InR82vLHnL/view)
+Link to E-Commerce-GET-routes GIF 
+> [https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view](https://drive.google.com/file/d/1-b9sKZIA8Pz4-CW6Co4tmYjEoUNh0QbL/view)
+<br>
+
+<br>
+<br>
+
+<img src="Images\E-Commerce-PUT-POST-DELETE-routes.gif" title="E-Commerce-PUT-POST-DELETE-routes gif" width = 400px>
+
+<br>
+
+Link to E-Commerce-PUT-POST-DELETE-routes GIF 
+> [https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view](https://drive.google.com/file/d/1XVZE1bDq4WX2pvvH1lN1NoJW8ohasovM/view)
 <br>
 
 <br>
 
 ## Code-Snippets
 
-This code snippet shows how you can use SQL and npm mysql2 to create a function to view the departments table
+This code snippet shows how you can use sequelize.sync() to synchronize all models i.e. a table in your database
 
-* const sql uses Structured Query Language SELECT statement to display columns with an alias FROM the department table 
+* sequelize.sync() creates the table if it doesn't exits and does nothing if it already exists
 
-* ".query" is a built-in method in npm mysql2 to execute a query in the mysql database
+* sequelize.sync({ force: true }) creates the table and drops it first if it already exists
 
-* "console.table()" method displays tabular data as a table
-
+* sequelize.sync({ force: false }) creates the table. If the table exists, any field additions/modifications/deletions you have won't be executed
 
 ```
-function viewDepartments() {
-  const sql =
-    "SELECT department.id AS id, department.name AS department FROM department;";
-
-  db.query(sql, (err, data) => {
-    if (err) {
-      console.log(err);
-    }
-    console.table(data);
-    initPrompt();
-  });
-}
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log(`Now listening on port http://localhost:${PORT}'`));
+});
 ```
 
  <br>
@@ -254,13 +270,13 @@ function viewDepartments() {
 
 ## Learning-Points
 
-* How to use npm mysql2 to generate MySQL queries
+* How to use Sequelize ORM
 
-* How to use promises and switch statements
+* How to modularize back-end applications 
 
-* How to use SQL statements (SELECT, INSERT, DELETE, UPDATE, JOIN) 
+* How to create API routes and models 
 
-* How to use MySQL Workbench as a MySQL graphical user interface
+* How to use MySQL Workbench and Insomnia for testing API routes
 
 
 <br>

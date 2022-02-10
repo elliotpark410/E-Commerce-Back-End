@@ -11,10 +11,9 @@ TODOS:
 -Begin Coding DONE
   -routes/api files DONE
   -models files DONE
--Test all API Routes and check database
+-Test all API Routes and check database DONE
 -Practice git branching 
 -Add comments and clean up code 
--Deploy on Heroku
 -Create README.md 
 -Review grading criteria 
 -Submit to BCS 
