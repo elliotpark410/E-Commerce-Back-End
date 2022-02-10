@@ -14,7 +14,7 @@ TODOS:
 -Test all API Routes and check database DONE
 -Practice git branching 
 -Add comments and clean up code 
--Create README.md 
+-Create README.md DONE
 -Review grading criteria 
 -Submit to BCS 
 
