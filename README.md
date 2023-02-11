@@ -31,7 +31,7 @@ cd db
 mysql -u root -p
 exit
 
-cd server.js
+cd ..
 node seeds/index.js
 node server.js
 ```
