@@ -156,13 +156,13 @@ sequelize.sync({ force: false }).then(() => {
 ## Author
  **1. Elliot Park** 
 
-[https://github.com/elliotpark410](https://github.com/elliotpark410)
+[Github](https://github.com/elliotpark410)
 
 <br>
 
-[https://www.linkedin.com/in/elliot-park/](https://www.linkedin.com/in/elliot-park/)
+[LinkedIn ](https://www.linkedin.com/in/elliot-park/)
 
 <br>
 
-[elliotpark410@gmail.com](mailto:elliotpark410@gmail.com)
+[Email](mailto:elliotpark410@gmail.com)
 
