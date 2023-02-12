@@ -154,7 +154,7 @@ sequelize.sync({ force: false }).then(() => {
 
 
 ## Author
- **1. Elliot Park** 
+ **Elliot Park** 
 
 [Github](https://github.com/elliotpark410)
 
